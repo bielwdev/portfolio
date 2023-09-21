@@ -71,3 +71,59 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #00F0BE;
 }
+
+/* SOBRE MIM */
+#sobre{
+    padding: 80px 0;
+    color: #ababab;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sobre-col-1{
+    flex-basis: 35%;
+}
+.sobre-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+    border-color: #00F0BE;
+}
+
+.sobre-col-2{
+    flex-basis: 60%;
+
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #00F0BE;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-link::after{
+    width: 50%;
+}
