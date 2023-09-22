@@ -32,7 +32,7 @@
         </div>
     </div>
     <!--FINAL HEEADER-->
-    
+
     <!--SESSÃO SOBRE MIM-->
     <div id="sobre">
         <div class="container">
@@ -84,25 +84,10 @@
         </div>
     </div>
     <!--FINAL SESSÃO SOBRE MIM-->
-
-</body>
-
-<script>
-
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
     
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-
-</script>
+<!--JS OPENTAB-->
+<script src="assets/js/opentab.js"></script>
+<!--JS OPENTAB-->
+</body>
 
 </html>
