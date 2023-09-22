@@ -265,7 +265,7 @@ nav ul li a:hover::after{
 }
 
 .work:hover img{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .work:hover .layer{
     height: 100%;
@@ -285,3 +285,4 @@ nav ul li a:hover::after{
     background: #00F0BE;
     scale: 105%
 }
+/* FINAL PORTFOLIO */
