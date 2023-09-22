@@ -127,7 +127,7 @@ nav ul li a:hover::after{
     position: absolute;
     left: 0;
     bottom: -8px;
-    transition: 0.5s;
+    transition: 0.6s;
 }
 .tab-links.active-link::after{
     width: 50%;
@@ -200,7 +200,7 @@ nav ul li a:hover::after{
 }
 .services-list div:hover{
     background: #00F0BE;
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }
 .services-list div a:hover{
     color: #262626;
@@ -227,6 +227,7 @@ nav ul li a:hover::after{
     width: 100%;
     border-radius: 10px;
     display: block;
+    transition: transform 0.5s;
 }
 .layer{
     width: 100%;
@@ -244,6 +245,7 @@ nav ul li a:hover::after{
     padding: 0 40px;
     text-align: center;
     font-size: 14px;
+    transition: height 0.5s;
 }
 .layer h3{
     font-weight: 500;
@@ -260,4 +262,26 @@ nav ul li a:hover::after{
     height: 60px;
     border-radius: 50%;
     text-align: center;
+}
+
+.work:hover img{
+    transform: scale(1.1);
+}
+.work:hover .layer{
+    height: 100%;
+}
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #00F0BE;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: background 0.5s, scale 0.5s;
+}
+.btn:hover{
+    background: #00F0BE;
+    scale: 105%
 }
